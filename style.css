@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#container {
+    width: 99%;
+    margin: 0px auto;
+    border: 2px solid #919191;
+    background-color: #C4C4C4;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #C4C4C4;
+}
+
+#header2 {
+    width: 100%;
+    height: 32px;
+    background-color: #5C3701;
+    color: #FFFFFF;
+}
+
+.label-navigasi {
+    background-color: #5C3701;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+#content-container {
+    float: left;
+    width: 83.8%;
+    background-color: #FFFFFF;
+}
+
+#content {
+    float: left;
+    width: 96.8%;
+    min-height: 454px;
+    border: 2px solid #C4C4C4;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+.tombol {
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #F1F1F1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 1px solid #01597E;
+    color: black;
+}
+
+#tombol-tambah-container {
+    margin: 10px;
+}
+
+#tombol-tambah-container a:hover {
+    background-color: #C4C4C4;
+}
+
+#tabel-tampil {
+    border: 1px solid #C4C4C4;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabel-tampil tr:nth-child(odd) {
+    background-color: #F1F1F1;
+}
+
+#tabel-tampil tr th {
+    background-color: #a5a4a3;
+    color: #000000;
+    padding: 4px;
+    text-align: left;
+}
+
+#tabel-tampil td {
+    padding: 4px;
+}
+
+#label-tampil-no {
+    width: 30px;
+}
+
+#label-opsi {
+    width: 158px;
+    font-weight: bold;
+}
+
+#label-opsi2 {
+    width: 82px;
+    font-weight: bold;
+}
+
+#label-opsi3 {
+    width: 166px;
+    font-weight: bold;
+}
+
+.tombol-opsi-container {
+    float: left;
+    padding: 3px;
+}
+
+.tombol-opsi-container a:hover {
+    background-color: #C4C4C4;
+}
+
+#tabel-input {
+    width: 100%;
+}
+
+.label-formulir {
+    width: 12%;
+    height: 36px;
+    margin: 20px;
+}
+
+.isian-formulir {
+    width: 80px;
+    padding: 4px;
+    width: 99.8%;
+}
+
+.isian-formulir2 {
+    width: 78%;
+    padding: 4px;
+    width: 20%;
+}
+
+.label-formulir2 {
+    width: 100%;
+    height: 26px;
+    margin: 20px;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+.isian-formulir-border {
+    border: 1px solid #C4C4C4;
+}
+
+.warna-formulir-disabled {
+    background-color: #F1F1F1;
+}
+
+input[type=text] {
+    width: 80%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    margin: 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=submit] {
+    width: 60px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.tombol-arsip {
+    width: 110px;
+    height: 30px;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 10px;
+    border: black;
+}
+
+li {
+    padding: 5px;
+    font-size: 15px;
+}
